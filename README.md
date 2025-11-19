@@ -60,7 +60,7 @@ Follow these steps to run the project on your local machine:
 
 &nbsp;   ```
 
-&nbsp;   \*(Note: The `car\_prices.csv` dataset is excluded from the repository due to size constraints. The application runs using the pre-trained `.joblib` model files.)\*
+&nbsp;   \*(Note: The `car_prices.csv` dataset is excluded from the repository due to size constraints. The application runs using the pre-trained `.joblib` model files.)\*
 
 
 
@@ -96,7 +96,7 @@ Follow these steps to run the project on your local machine:
 
 \* `CARS.ipynb`: Jupyter Notebook containing data analysis, cleaning, and model training steps.
 
-\* `\*.joblib`: Pre-trained model, scaler, and encoder files.
+\* `*.joblib`: Pre-trained model, scaler, and encoder files.
 
 \* `requirements.txt`: List of project dependencies.
 
