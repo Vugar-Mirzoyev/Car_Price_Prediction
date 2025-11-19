@@ -6,11 +6,11 @@ This project is a web-based application that predicts the market value of used c
 
 
 
-!\[Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 
-!\[Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
 
-!\[XGBoost](https://img.shields.io/badge/Model-XGBoost-green)
+![XGBoost](https://img.shields.io/badge/Model-XGBoost-green)
 
 
 
