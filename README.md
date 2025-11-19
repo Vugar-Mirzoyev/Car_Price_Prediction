@@ -44,7 +44,7 @@ Follow these steps to run the project on your local machine:
 
 &nbsp;   ```bash
 
-&nbsp;   git clone \[https://github.com/YOUR\_USERNAME/Car-Price-Prediction.git](https://github.com/YOUR\_USERNAME/Car-Price-Prediction.git)
+&nbsp;   git clone https://github.com/Vugar-Mirzoyev/Car-Price-Prediction.git
 
 &nbsp;   cd Car-Price-Prediction
 
