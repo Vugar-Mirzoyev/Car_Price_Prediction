@@ -1,0 +1,15 @@
+*.csv
+*.xlsx
+
+__pycache__/
+catboost_info/
+.ipynb_checkpoints/
+venv/
+.env
+*.py[cod]
+
+catboost_info/
+
+venv/
+env/
+.env
