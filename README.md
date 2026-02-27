@@ -1,108 +1,98 @@
-\# 🚗 Used Car Price Prediction App
+# 🚗 Used Car Price Prediction App
 
-
-
-This project is a web-based application that predicts the market value of used cars using machine learning algorithms. It features a user-friendly interface built with Streamlit, allowing users to get instant price estimates based on vehicle specifications.
-
-
+A machine learning-powered web application that predicts the market value of used cars in real time. Built with a clean Streamlit interface, it delivers instant price estimates based on vehicle specifications.
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-red)
-
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-green)
 
+## ✨ Features
 
+### 🤖 High-Accuracy ML Model
+- **XGBoost** — Optimized gradient boosting algorithm for precise predictions
+- **Scikit-learn Pipeline** — Clean preprocessing and encoding integrated into the model
+- **Pre-trained & Ready** — Load `.joblib` model files instantly, no retraining needed
 
-\## 🎯 About the Project
+### 🎨 Interactive User Interface
+- **Streamlit UI** — Modern, responsive, and intuitive web interface
+- **Real-Time Results** — Instant price estimate on every input change
+- **Rich Visualizations** — Charts and analytics powered by Matplotlib & Altair
 
+### 📊 Comprehensive Feature Coverage
+- **Make & Model** — Wide range of vehicle brands and models supported
+- **Year & Mileage** — Core depreciation factors included
+- **Transmission & Condition** — Full vehicle specification inputs
 
+### 🛠️ Full Data Science Lifecycle
+- **Exploratory Data Analysis** — Documented in `CARS.ipynb`
+- **Feature Engineering** — Custom transformations for improved model performance
+- **Model Optimization** — Hyperparameter tuning and cross-validation
 
-This application is powered by an \*\*XGBoost\*\* model trained on a dataset of thousands of vehicle sales. The project encompasses the entire data science lifecycle, including data analysis, feature engineering, and model optimization.
+## 📸 Screenshots
 
+### 🏠 Main Interface
+![Main UI](assets/main.png)
 
+### 📊 Prediction Result
+![Prediction Result](assets/prediction.png)
 
-\### Key Features
+## 🚀 Quick Start
 
-\* \*\*High Accuracy:\*\* Utilizes an optimized XGBoost algorithm for precise predictions.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Vugar-Mirzoyev/Car-Price-Prediction.git
+   cd Car-Price-Prediction
+   ```
 
-\* \*\*Interactive UI:\*\* Modern and responsive user experience designed with Streamlit.
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   > **Note:** The `car_prices.csv` dataset is excluded from the repository due to size constraints. The application runs using the pre-trained `.joblib` model files.
 
-\* \*\*Comprehensive Analysis:\*\* Considers various factors such as make, model, year, transmission, and condition.
+3. **Run the application:**
+   ```bash
+   streamlit run app.py
+   ```
 
+4. Open **http://localhost:8501** in your browser and start predicting!
 
+## 🔒 Privacy & Data
 
-\## 🛠️ Installation \& Usage
+This application runs **entirely on your local machine**:
 
+- ✅ No user data is collected or transmitted
+- ✅ All predictions are computed locally
+- ✅ Pre-trained model files included — no external API calls required
+- ✅ Safe to run in offline environments
 
+## 🛠️ Tech Stack
 
-Follow these steps to run the project on your local machine:
+| Layer | Technology |
+|---|---|
+| Data Processing | Pandas, NumPy |
+| Machine Learning | XGBoost, Scikit-learn |
+| Interface | Streamlit |
+| Visualization | Matplotlib, Altair |
+| Model Persistence | Joblib |
 
+## 📁 Project Structure
 
+```
+Car-Price-Prediction/
+├── assets/             # Screenshots and visual assets
+│   ├── main.png        # Main interface screenshot
+│   └── prediction.png  # Prediction result screenshot
+├── app.py              # Main Streamlit application
+├── CARS.ipynb          # EDA, feature engineering & model training
+├── *.joblib            # Pre-trained model, scaler, and encoder files
+└── requirements.txt    # Project dependencies
+```
 
-1\.  \*\*Clone the repository:\*\*
+## 📜 License
 
-&nbsp;   ```bash
-
-&nbsp;   git clone https://github.com/Vugar-Mirzoyev/Car-Price-Prediction.git
-
-&nbsp;   cd Car-Price-Prediction
-
-&nbsp;   ```
-
-
-
-2\.  \*\*Install dependencies:\*\*
-
-&nbsp;   ```bash
-
-&nbsp;   pip install -r requirements.txt
-
-&nbsp;   ```
-
-&nbsp;   \*(Note: The `car_prices.csv` dataset is excluded from the repository due to size constraints. The application runs using the pre-trained `.joblib` model files.)\*
-
-
-
-3\.  \*\*Run the application:\*\*
-
-&nbsp;   ```bash
-
-&nbsp;   streamlit run app.py
-
-&nbsp;   ```
-
-
-
-\## 📊 Tech Stack
-
-
-
-\* \*\*Data Processing:\*\* Pandas, NumPy
-
-\* \*\*Machine Learning:\*\* XGBoost, Scikit-learn
-
-\* \*\*Interface:\*\* Streamlit
-
-\* \*\*Visualization:\*\* Matplotlib, Altair
-
-
-
-\## 📁 Project Structure
-
-
-
-\* `app.py`: The main Streamlit application file.
-
-\* `CARS.ipynb`: Jupyter Notebook containing data analysis, cleaning, and model training steps.
-
-\* `*.joblib`: Pre-trained model, scaler, and encoder files.
-
-\* `requirements.txt`: List of project dependencies.
-
-
+This project is developed as a **Data Science portfolio project** and is open for learning and reference purposes.
 
 ---
 
-\*This project was developed as a Data Science portfolio project.\*
-
+*Built end-to-end as a portfolio project — from raw data to a deployed prediction interface.*
