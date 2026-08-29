@@ -40,8 +40,8 @@ A machine learning-powered web application that predicts the market value of use
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Vugar-Mirzoyev/Car-Price-Prediction.git
-   cd Car-Price-Prediction
+   git clone https://github.com/Vugar-Mirzoyev/Car_Price_Prediction.git
+   cd Car_Price_Prediction
    ```
 
 2. **Install dependencies:**
@@ -79,7 +79,7 @@ This application runs **entirely on your local machine**:
 ## 📁 Project Structure
 
 ```
-Car-Price-Prediction/
+Car_Price_Prediction/
 ├── assets/             # Screenshots and visual assets
 │   ├── main.png        # Main interface screenshot
 │   └── prediction.png  # Prediction result screenshot
